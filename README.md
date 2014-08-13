@@ -1,4 +1,4 @@
 lego_robot
 ==========
 
-python code for experimental logo robots
+python code for experimental lego robots
