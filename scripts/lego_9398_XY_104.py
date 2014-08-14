@@ -78,14 +78,14 @@ def stop():
     BrickPi.MotorSpeed[PORT_D] = 0
 
 def collision_front():
-      global distance_front
-      distance_front = BrickPi.SensorI2CIn[I2C_PORT_1][I2C_DEVICE_INDEX][0]
-      ##print distance_front
+    global distance_front
+    distance_front = BrickPi.SensorI2CIn[I2C_PORT_1][I2C_DEVICE_INDEX][0]
+    ##print distance_front
 
 def collision_back():
-      global distance_back
-      distance_back = BrickPi.SensorI2CIn[I2C_PORT_2][I2C_DEVICE_INDEX][0]
-      ##print distance_back
+    global distance_back
+    distance_back = BrickPi.SensorI2CIn[I2C_PORT_2][I2C_DEVICE_INDEX][0]
+    ##print distance_back
 
 
 # tresholds for accerlation sensor
